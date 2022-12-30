@@ -1,4 +1,10 @@
 package planets;
 
-public class Galaxy {
+public  class Galaxy {
+    public static void main(String[] args) {
+
+
+
+
+    }
 }
