@@ -1,6 +1,35 @@
 package planets;
 
 public abstract class Planet {
+    public Planet(String orbit, String planetName, int quantityOfSatellites, boolean isPlanetCold, boolean isPlanethot, boolean hasLife, boolean isRound, boolean hasOxygen, double gravityValue) {
+
+        setOrbit(orbit);
+        setPlanetName(planetName);
+        setQuantityOfSatellites(quantityOfSatellites);
+        setPlanetCold(isPlanetCold);
+        setPlanethot(isPlanethot);
+        setHasLife(hasLife);
+        setRound(isRound);
+        setHasOxygen(hasOxygen);
+        setGravityValue(gravityValue);
+
+    }
+
+    @Override
+    public String toString() {
+        return "Planet{" +
+                "orbit='" + orbit + '\'' +
+                ", planetName='" + planetName + '\'' +
+                ", quantityOfSatellites=" + quantityOfSatellites +
+                ", isPlanetCold=" + isPlanetCold +
+                ", isPlanethot=" + isPlanethot +
+                ", hasLife=" + hasLife +
+                ", isRound=" + isRound +
+                ", hasOxygen=" + hasOxygen +
+                ", gravityValue=" + gravityValue +
+                '}';
+    }
+
     private String orbit,planetName;
     private int quantityOfSatellites;
     private boolean isPlanetCold, isPlanethot, hasLife, isRound,hasOxygen;
