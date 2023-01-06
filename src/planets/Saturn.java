@@ -16,7 +16,7 @@ public class Saturn extends Planet{
     }
     @Override
     public int quantityOfSatellites(){
-        return 83;
+        return 86;
     }
 
 }
