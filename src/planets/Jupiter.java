@@ -10,4 +10,9 @@ public class Jupiter extends Planet{
     public int solarYear() {
         return 0;
     }
+
+    @Override
+    public int quantityOfSatellites() {
+        return 0;
+    }
 }
