@@ -6,5 +6,9 @@ public  class Galaxy {
 
         System.out.println(mercury);
 
+        Earth earth1 = new Earth("1","Earth",1,false,false,true,true,true ,9.81);
+
+        System.out.println(earth1);
+
     }
 }
