@@ -16,4 +16,9 @@ public class Mercury extends Planet {
     public int solarYear() {
         return 88;
     }
+
+    @Override
+    public int quantityOfSatellites() {
+        return 4;
+    }
 }
