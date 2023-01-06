@@ -111,7 +111,7 @@ public abstract class Planet {
     public abstract int solarYear();//method should return q-ty of days for one solar year of this planet
 
 
-
+    public abstract int quantityOfSatellites();
 }
 /*
 Hannan - Venus
