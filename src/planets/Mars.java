@@ -23,6 +23,11 @@ public class Mars extends Planet {
     }
 
     @Override
+    public int quantityOfSatellites() {
+        return 3;
+    }
+
+    @Override
     public String toString() {
         return super.toString();
     }
