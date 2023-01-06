@@ -6,5 +6,11 @@ public  class Galaxy {
 
         System.out.println(mercury);
 
+    Mars mars = new Mars("2", "Mars", 1, true, false, false, true, false, 2);
+
+        System.out.println(mars);
     }
+
+
+
 }
