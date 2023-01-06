@@ -9,4 +9,9 @@ public class Earth extends Planet{
     public int solarYear() {
         return 365;
     }
+
+    @Override
+    public int quantityOfSatellites() {
+        return 1;
+    }
 }
